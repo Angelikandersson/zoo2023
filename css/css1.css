@@ -1,40 +1,12 @@
-#container {
-    column-gap: 6px;
-    row-gap: 6px;
-    display: grid;
-    height: 150vh;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:  10% 15% 1fr 15%;
-    grid-template-areas:
-    "nv nv nv"
-    "hd hd hd"
-    "mn mn as"
-    "ft ft ft";
+*{
+    padding: 0;
+    margin: 0;
 }
 
+.wrapper {
+    background: url(../img/animals/bech.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
 
-nav {
-    grid-area: nv;
-    background-image: url(../img/animals/nai-thon-beach-a-900.jpg)
-    background-size:
-}
 
-header {
-    grid-area: hd;
-    background-color: black;
-}
-
-main {
-    grid-area: mn;
-    background-color: black;
-}
-
-article {
-    grid-area: as;
-    background-color: black;
-}
-
-footer {
-    grid-area: ft;
-    background-color: black;
 }
