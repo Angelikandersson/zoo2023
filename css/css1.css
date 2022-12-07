@@ -41,7 +41,7 @@
 .navbar ul li a:hover {
     background: greenyellow;
     border-radius: 2px;
-    
+
 }
 
 .wrapper .center{
@@ -71,7 +71,7 @@
 }
 
 .center .buttons{
-    margin: 35px;
+    margin: auto;
     height: 50px;
     width: 150px;
     font-size: 18px;
@@ -81,9 +81,15 @@
     outline: none;
     cursor: pointer;
     border-radius: 25px;
-
+    display: flex;
+    
 }
 
+.heh{
+    display: flex;
+    justify-content: center;
+    padding: 15px 40px;
+}
 
 .logo {
     width: 140px;
