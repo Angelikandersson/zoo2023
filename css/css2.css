@@ -1,10 +1,4 @@
 
-/*.wrapper {
-    background: url(../img/animals/abovebech.jpg) no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
-*/
 
 body {
     margin: 0;
@@ -12,7 +6,17 @@ body {
     background: url(../img/animals/reef.jpg);
 }
 
-.buttons{
+.buttons {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* font-family: sans-serif*/
+    user-select: none;
+}
+
+.buttons .knapp{
+    display: block;
     margin: auto;
     height: 50px;
     width: 150px;
@@ -23,6 +27,9 @@ body {
     outline: none;
     cursor: pointer;
     border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .heh{
@@ -74,3 +81,8 @@ body {
 .text h2 {
     font-weight: 300;
 }
+
+a:link{text-decoration: none;}
+a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+a:active{text-decoration: none;}

@@ -70,21 +70,6 @@
     text-align: center;
 }
 
-.center .buttons{
-    margin: auto;
-    height: 50px;
-    width: 150px;
-    font-size: 18px;
-    font-weight: bold;
-    background: greenyellow;
-    border: 1px solid greenyellow;
-    outline: none;
-    cursor: pointer;
-    border-radius: 25px;
-    display: flex;
-    
-}
-
 .heh{
     display: flex;
     justify-content: center;
@@ -96,3 +81,25 @@
     height: auto;
     padding: 20px 100px;
 }
+
+.center .knapp{
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    background: greenyellow;
+    border: 1px solid greenyellow;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:link{text-decoration: none;}
+a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+a:active{text-decoration: none;}
