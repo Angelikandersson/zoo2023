@@ -56,7 +56,7 @@ body {
   display: grid;
   height: 100vh;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 80px 15% 2fr 1fr;
+  grid-template-rows: 80px 15% 2fr 30%;
   row-gap: 10px;
   column-gap: 10px;
   grid-template-areas: 
@@ -75,6 +75,7 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 40px;
+  border-radius: 10px;
 }
 
 .art2{
@@ -83,6 +84,7 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 40px;
+  border-radius: 10px;
 }
 
 .dricka{
@@ -91,25 +93,116 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 15px;
+  border-radius: 10px;
 }
 
+ol {
+line-height:300%
+}
+
+.drickmeny{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr;
+  column-gap: 10px;
+  grid-template-areas: 
+  "pc li"
+  "pc1 li";
+}
+
+.exdr{
+  grid-area: pc;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.exdri{
+  grid-area: pc1;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+}
+.dryck{
+  grid-area: li;
+  padding-left: 250px;
+}
+
+.mat{
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  column-gap: 10px;
+  grid-template-areas: 
+  "p l"
+  "p1 l";
+}
+
+.p{
+  grid-area: p;
+  border-radius: 10px;
+  justify-content: center;
+  padding-right: 5px;
+}
+
+.p1{
+  grid-area: p1;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.met{
+  grid-area: l;
+  padding-left: 250px;
+}
 .foda{
   grid-area: fod;
   background-color: lightblue;
   display: flex;
   justify-content: center;
   padding-top: 15px;
+  border-radius: 10px;
 }    
 
 
 
 .footer{
   grid-area: ft;
-  background-color: lightblue;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.donera{
   display: grid;
-  height: 100%;
-  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  column-gap: 10px;
+  border-radius: 10px;
+  grid-template-columns: 1fr 3fr;
   grid-template-rows: 1fr;
   grid-template-areas: 
   "tx tx1";
 }
+
+.tx{
+  grid-area: tx;
+  padding-top: 10px;
+  padding-left: 40px;
+  display: flex;
+  justify-content: left;
+  display: grid;
+}
+
+.tx1{
+  grid-area: tx1;
+  display: flex;
+  align-items: center;
+  padding-top: 45px;
+  gap: 20px;
+}
+
+
+a:link{text-decoration: none;}
+a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+a:active{text-decoration: none;}
